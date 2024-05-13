@@ -1,6 +1,8 @@
-import { Sheet, Typography } from "@mui/joy";
+"use client";
+import { Input, Sheet, Typography } from "@mui/joy";
+import SearchBar from "./SearchBar";
 
-const Page = () => {
+const page = () => {
   return (
     <Sheet
       sx={{
@@ -15,14 +17,14 @@ const Page = () => {
         borderRadius: "sm",
         boxShadow: "md",
         alignSelf: "center",
-        backgroundColor:"InfoBackground"
       }}
     >
-      <Typography color="neutral" level="h1" variant="solid">
-        This component in pages in home
+      <Typography color="primary" level="title-lg" variant="plain">
+        Enter the cityName
       </Typography>
+      <SearchBar />
     </Sheet>
   );
 };
 
-export default Page;
+export default page;

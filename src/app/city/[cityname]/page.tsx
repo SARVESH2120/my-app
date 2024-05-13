@@ -47,7 +47,7 @@ const CityWeather = ({ params }) => {
             Weather in {weatherData?.name}
           </Typography>
           <Typography color="primary" level="title-lg" variant="soft">
-            Temperature: {(weatherData?.main?.temp)}
+            Temperature: {weatherData?.main?.temp}
           </Typography>
           <Typography color="primary" level="title-lg" variant="soft">
             Feels_like: {weatherData?.main?.feels_like}

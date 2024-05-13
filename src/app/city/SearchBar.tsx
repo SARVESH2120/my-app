@@ -11,7 +11,7 @@ const SearchBar = () => {
   const handleSearch = (e) => {
     e.preventDefault();
     if (cityName.trim() !== "") {
-      router.push(`/weather/${encodeURIComponent(cityName.trim())}`);
+      router.push(`/city/${encodeURIComponent(cityName.trim())}`);
     }
   };
 

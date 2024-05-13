@@ -1,6 +1,7 @@
 "use client";
 import { Sheet, Typography } from "@mui/joy";
-import Btn from "../../../button";
+// import Btn from "../../../button";
+import Btn from "../button";
 
 const HomeDynamic = ({ params }) => {
   const handleClick = () => {
